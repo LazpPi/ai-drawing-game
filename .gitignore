@@ -1,0 +1,15 @@
+# === Pythonのキャッシュファイル ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Jupyter Notebookの自動バックアップ ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# === 大容量のデータファイル・個人情報ログ ===
+# dataフォルダ内のnpyファイルは重いため除外（必要なら後で外せます）
+data/*.npy
+# イベントで取得したログデータを除外
+*.csv
+ai_log.csv
