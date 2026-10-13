@@ -13,3 +13,10 @@ data/*.npy
 # イベントで取得したログデータを除外
 *.csv
 ai_log.csv
+
+# === Macのシステムファイル ===
+.DS_Store
+
+# === 本ゲームのテストファイル ===
+drawing.ipynb
+product.ipynb
