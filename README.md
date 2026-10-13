@@ -1,4 +1,5 @@
 # AIとお絵かき伝言ゲーム
+<img width="2390" height="1792" alt="OC" src="https://github.com/user-attachments/assets/26e2f604-a7a0-46fa-980c-055dd1ab64e4" />
 
 ## プロジェクト概要
 本プロジェクトは、大学のオープンキャンパスにて、来場する高校生にAI（人工知能）と触れ合う体験を提供するために開発した体験型システムです。
