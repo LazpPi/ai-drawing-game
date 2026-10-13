@@ -7,7 +7,7 @@ import numpy as np
 import time
 import torch
 import torch.nn as nn
-import datetime # 日時を記録するために追加
+import datetime
 
 # ========== AIモデルの設定 ==========
 classes = ["clock", "cat", "apple", "cake", "boomerang"]
@@ -270,7 +270,7 @@ def main():
             last_prediction = prediction_text # 【NEW】ログ用に記録
             print(f"AIの予想: {prediction_text}")
             
-        # === 【NEW】ログ保存用の処理 ===
+        # === ログ保存用の処理 ===
         elif key == ord('o') or key == ord('O'):
             if last_prediction != "":
                 with open("ai_log.csv", "a", encoding="utf-8") as f:
